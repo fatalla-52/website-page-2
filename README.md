@@ -87,7 +87,7 @@
         </div>
 
         <div class="box">
-            <img src="ingredients-02.jpg" alt="Ingredients">
+            <img src="milk-tea-ingredients-02.jpg" alt="Ingredients">
             <ul>
                 <li>Black Tea</li>
                 <li>Brown Sugar</li>
