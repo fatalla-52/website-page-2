@@ -28,7 +28,7 @@
     }
 
     h1 {
-        text-align: center;
+        text-align: left;
         margin-bottom: 40px;
         font-size: 32px;
         font-weight: 700;
