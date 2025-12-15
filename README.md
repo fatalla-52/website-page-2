@@ -76,7 +76,7 @@
     <div class="grid">
 
         <div class="box">
-            <img src="equipment.jpg" alt="Equipment">
+            <img src="ph-11134207-7r98p-lv79pvzfqmmqe8.jpg" alt="Equipment">
             <ul>
                 <li>Bar spoon small</li>
                 <li>Pearl Scooper</li>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="box">
-            <img src="ingredients.jpg" alt="Ingredients">
+            <img src="ingredients-02.jpg" alt="Ingredients">
             <ul>
                 <li>Black Tea</li>
                 <li>Brown Sugar</li>
