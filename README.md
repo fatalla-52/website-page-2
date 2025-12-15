@@ -99,7 +99,7 @@
         </div>
 
         <div class="box">
-            <img src="recipe-card.jpg" alt="Milktea Recipe">
+            <img src="Milk-tea-Recipe-03.jpg" alt="Milktea Recipe">
         </div>
 
     </div>
