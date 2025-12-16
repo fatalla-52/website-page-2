@@ -1,176 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Milk Tea Tour</title>
+<title>Milk Tea Equipment & Ingredients</title>
 
 <style>
     body {
         margin: 0;
         padding: 0;
-        background: #c7c1a5;
+        background: #c7c1a5; 
         font-family: Arial, sans-serif;
     }
 
-    .nav {
+    nav {
+        padding: 15px 30px;
         display: flex;
         justify-content: flex-end;
-        gap: 20px;
-        padding: 18px 25px;
-        font-size: 18px;
         font-weight: bold;
-        flex-wrap: wrap;
+        gap: 25px;
     }
 
-    .section {
-        max-width: 1100px;
+    .container {
+        max-width: 1200px;
         margin: auto;
         padding: 40px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
     }
 
-    .text {
-        width: 60%;
+    h1 {
+        text-align: left;
+        margin-bottom: 40px;
+        font-size: 32px;
+        font-weight: 700;
     }
 
-    .text h1 {
-        font-size: 40px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
     }
 
-    .text h3 {
-        margin: 10px 0 20px 0;
-        font-size: 20px;
+    .box {
+        text-align: center;
+        background: #efe9d2;
+        padding: 20px;
+        border-radius: 10px;
     }
 
-    .buttons {
-        margin-top: 20px;
+    .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 
-    .btn {
-        padding: 12px 25px;
-        border-radius: 6px;
-        font-weight: bold;
-        margin-right: 10px;
-        color: white;
-        border: none;
-        cursor: pointer;
+    ul {
+        text-align: left;
+        margin-top: 15px;
+        line-height: 1.6;
+        padding-left: 20px;
         font-size: 16px;
     }
-
-    .join {
-        background: red;
-    }
-
-    .contact {
-        background: green;
-    }
-
-    .section img {
-        width: 35%;
-        border-radius: 8px;
-    }
-
-    @media (max-width: 768px) {
-
-        .nav {
-            justify-content: center;
-            gap: 15px;
-            font-size: 16px;
-        }
-
-        .section {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .text {
-            width: 100%;
-        }
-
-        .section img {
-            width: 75%;
-        }
-
-        .text h1 {
-            font-size: 28px;
-        }
-
-        .btn {
-            display: block;
-            width: 80%;
-            margin: 10px auto;
-            font-size: 16px;
-        }
-        
-        .nav {
-            font-size: 15px;
-            gap: 12px;
-        }
-
-        .section img {
-            width: 90%;
-        }
-
-        .text h1 {
-            font-size: 24px;
-        }
-
-        .btn {
-            width: 90%;
-        }
-    }
-
 </style>
 </head>
-    <nav class="navigator">
-    <a>Home</a>
-    <a href="learn.html">Learn</a>
-    <a href="contact.html">Contact</a>
+  <nav class="navigator">
+    <a href="home.html">Home</a>
+    <a>Learn</a>
+    <a href="contact-us.html">Contact</a>
 </nav>
 <body>
+    
 
 
+<div class="container">
+    <h1>Equipment and Ingredients for Making Milktea</h1>
 
-<div class="section">
-    <div class="text">
-        <h1>MILK TEA TOUR</h1>
-        <h3>Make yourself learn about Milk tea!</h3>
-        <p>
-            This website is dedicated to showcasing and educating about milk tea.
-            It will serve those who want to learn new skills to make their own milk tea.
-            I hope you enjoy and learn a lot from our lesson in this milk tea tour.
-        </p>
+    <div class="grid">
 
-        <div class="buttons">
-            <button class="btn join">Join Now!</button>
-            <button class="btn contact">Contact Now!</button>
+        <div class="box">
+            <img src="ph-11134207-7r98p-lv79pvzfqmmqe8.jpg" alt="Equipment">
+            <ul>
+                <li>Bar spoon small</li>
+                <li>Pearl Scooper</li>
+                <li>Coffee spoon big</li>
+                <li>Clear jigger small</li>
+                <li>Clear cocktail shaker 350ml</li>
+            </ul>
         </div>
+
+        <div class="box">
+            <img src="milk-tea-ingredients-02.jpg" alt="Ingredients">
+            <ul>
+                <li>Black Tea</li>
+                <li>Brown Sugar</li>
+                <li>Milk</li>
+                <li>Tapioca Balls</li>
+                <li>Water</li>
+                <li>Ice</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <img src="Milk-tea-Recipe-03.jpg" alt="Recipe">
+        </div>
+
     </div>
-
-    <img src="Screenshot 2025-11-16 181434.png" alt="Milk Tea">
-</div>
-
-<div class="section">
-    <div class="text">
-        <p>
-            Greet the customer politely<br>
-            Ask for their milk tea choice:
-        </p>
-        <ul>
-            <li>Ask what flavor they want</li>
-            <li>The size (small, medium, large)</li>
-            <li>The sugar level (0%, 25%, 50%, 75%, 100%)</li>
-            <li>Ask if they want extra tapioca</li>
-            <li>Ask for their name for the order</li>
-        </ul>
-        <p>Confirm their order if you took it correctly.</p>
-    </div>
-
-    <img src="Screenshot 2025-11-16 184040.png" alt="Ordering Area">
 </div>
 
 </body>
